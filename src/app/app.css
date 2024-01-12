@@ -1,0 +1,34 @@
+main .swiper-cards {
+  position: relative;
+}
+
+main .swiper-cards:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 300px;
+  width: 120px;
+  background: linear-gradient(270deg, #060608 -3.29%, rgba(6, 6, 9, 0) 64.25%);
+  filter: blur(20px);
+  z-index: 9999;
+}
+
+main div .swiper-pagination {
+  position: relative;
+  width: auto;
+  bottom: 0;
+  margin-top: 24px;
+}
+
+main div .swiper-pagination .swiper-pagination-bullet {
+  width: 6;
+  height: 6;
+  border-radius: 0;
+  opacity: 1;
+  background-color: #2f2f3b;
+}
+
+main div .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #df0025;
+}
